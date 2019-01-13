@@ -16,7 +16,7 @@ $ npm init
 
 ### Install required dev-dependencies
 ```
-$ npm install @babel/core babel babel-core babel-loader babel-plugin-add-module-exports uglifyjs-webpack-plugin vue vue-loader vue-template-compiler webpack webpack-cli --save-dev
+$ npm install @babel/core babel-loader babel-plugin-add-module-exports uglifyjs-webpack-plugin vue vue-loader css-loader vue-template-compiler webpack webpack-cli --save-dev
 ```
 
 ### Setting webpack.config.js
