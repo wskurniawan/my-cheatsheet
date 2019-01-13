@@ -116,3 +116,14 @@ scripts:{
 }
 ...
 ```
+
+command untuk menjalankan build
+- untuk dev build
+```sh
+$ npm run build
+```
+
+- untuk production build
+```
+$ npm run build-prod
+```
