@@ -125,5 +125,5 @@ $ npm run build
 
 - untuk production build
 ```
-$ npm run build-prod
+$ npm run prod-build
 ```
