@@ -27,11 +27,13 @@ const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
-   entry: './src/index.js', //set dengan file root vue
+   entry: {
+      'dashboard': './src/dashboard.js'
+   },
    output: {
-      path: path.resolve(__dirname, '/path/to/output'),
-      publicPath: '/public/', //set sesuai nama public folder yang digunakan
-      filename: 'outputName.js' //set nama output file 
+      path: path.resolve(__dirname, '/public'),
+      filename: '[name].js',
+      chunkFilename: '[name].js'
    },
    module: {
       rules: [
